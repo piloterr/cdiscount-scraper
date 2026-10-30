@@ -163,11 +163,11 @@ Example response from the API reference, abridged — real values depend on the 
   ],
   "rating": 4,
   "seller": {
-    "id": 405259,
-    "name": "BOOMING",
-    "rating": 5,
-    "sales_count": 1847,
-    "reviews_count": 20
+    "id": 0,
+    "name": "example",
+    "rating": 0,
+    "sales_count": 0,
+    "reviews_count": 0
   },
   "is_cdav": true,
   "currency": "EUR",
@@ -312,11 +312,11 @@ Example response from the API reference, abridged — real values depend on the 
     {
       "price": 8.68,
       "seller": {
-        "url": "https://www.cdiscount.com/mpv-1818-brico-travo.html",
-        "name": "brico-travo",
-        "type": "VENDEUR PRO",
+        "url": "example",
+        "name": "example",
+        "type": "example",
         "rating": {},
-        "sales_count": 16152
+        "sales_count": 0
       },
       "condition": "Neuf",
       "shipped_by": "brico-travo",
@@ -328,11 +328,11 @@ Example response from the API reference, abridged — real values depend on the 
     {
       "price": 8.19,
       "seller": {
-        "url": "https://www.cdiscount.com/mpv-406441-NMA.html",
-        "name": "NMA",
-        "type": "VENDEUR PRO",
+        "url": "example",
+        "name": "example",
+        "type": "example",
         "rating": {},
-        "sales_count": 348
+        "sales_count": 0
       },
       "condition": "Neuf",
       "shipped_by": "NMA",
@@ -482,8 +482,8 @@ Example response from the API reference, abridged — real values depend on the 
       "is_new": true,
       "rating": 4,
       "seller": {
-        "id": 405259,
-        "name": "BOOMING"
+        "id": 0,
+        "name": "example"
       },
       "is_cdav": true,
       "brand_id": 221204,
@@ -514,8 +514,8 @@ Example response from the API reference, abridged — real values depend on the 
       ],
       "is_new": true,
       "seller": {
-        "id": 80174,
-        "name": "MegaMarket"
+        "id": 0,
+        "name": "example"
       },
       "is_cdav": true,
       "brand_id": 766,
