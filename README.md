@@ -72,7 +72,7 @@ response = requests.get(
     params={
         "query": "https://www.cdiscount.com/informatique/ordinateurs-pc-portables/acemagic-pc-portables-gaming/f-1070992-aaaph06865.html",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -246,7 +246,7 @@ response = requests.get(
     params={
         "query": "https://www.cdiscount.com/mp-352880-auc3283981039048.html",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -384,7 +384,7 @@ response = requests.get(
     params={
         "query": "https://www.cdiscount.com/search/10/laptop.html",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()

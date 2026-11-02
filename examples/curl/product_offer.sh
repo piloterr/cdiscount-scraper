@@ -3,6 +3,6 @@
 # Usage: PILOTERR_API_KEY=your-key ./product_offer.sh
 set -euo pipefail
 
-curl -sS -G "https://api.piloterr.com/v2/cdiscount/product/offer" \
+curl -sS --fail-with-body -G "https://api.piloterr.com/v2/cdiscount/product/offer" \
   -H "x-api-key: ${PILOTERR_API_KEY}" \
   --data-urlencode query=https://www.cdiscount.com/mp-352880-auc3283981039048.html
